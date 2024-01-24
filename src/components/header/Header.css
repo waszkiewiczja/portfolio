@@ -1,0 +1,67 @@
+#grey-rect {
+  position: absolute;
+  left: 0;
+  text-align: center;
+  z-index: -1;
+}
+
+.grey-shape {
+  stroke-dasharray: 863;
+  stroke-dashoffset: 863;
+  animation: draw-grey-shape 4s infinite;
+}
+
+@keyframes draw-grey-shape {
+  from {
+    stroke-dashoffset: 863;
+  }
+  to {
+    stroke-dashoffset: -863;
+  }
+}
+
+#orange-rect {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  z-index: -1;
+}
+
+.orange-shape {
+  stroke-dasharray: 463;
+  stroke-dashoffset: 463;
+  animation: draw-orange-shape 3s infinite;
+}
+
+@keyframes draw-orange-shape {
+  from {
+    stroke-dashoffset: -463;
+  }
+  to {
+    stroke-dashoffset: 463;
+  }
+}
+
+#blue-rect {
+  position: absolute;
+  right: 0;
+  text-align: center;
+  z-index: -1;
+}
+
+.blue-shape {
+  stroke-dasharray: 863;
+  stroke-dashoffset: 863;
+  animation: draw-blue-shape 4s infinite;
+}
+
+@keyframes draw-blue-shape {
+  from {
+    stroke-dashoffset: 863;
+  }
+  to {
+    stroke-dashoffset: -863;
+  }
+}

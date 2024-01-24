@@ -1,0 +1,135 @@
+.anime-main {
+  position: relative;
+  background-color: white;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin: auto;
+}
+
+.anime-main > * {
+  z-index: 10;
+}
+
+.anime-all {
+  height: 100%;
+  width: 100%;
+}
+
+.anime-top,
+.anime-bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.anime-wrapper {
+  position: relative;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-top: -5px;
+  margin-bottom: -7px;
+}
+
+.anime-wrapper2 {
+  position: relative;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-top: -5px;
+  margin-bottom: -5px;
+}
+
+#anime-svg {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+#anime-emoji,
+#anime-emoji2 {
+  width: 20px;
+  height: 20px;
+  background-color: rgb(140, 158, 194);
+  position: absolute;
+  border-radius: 50%;
+  left: -10px;
+  top: -10px;
+}
+
+#anime-emoji3,
+#anime-emoji4 {
+  width: 0px;
+  height: 0px;
+  background-color: rgb(140, 158, 194);
+  position: absolute;
+  border-radius: 50%;
+  left: -10px;
+  top: -10px;
+}
+
+#anime-static {
+  display: none;
+}
+
+.anime-photo {
+  width: 100%;
+  height: auto;
+}
+
+.anime-img-1400 {
+  display: none;
+}
+
+.anime-img-1050 {
+  display: none;
+}
+
+@media only screen and (max-width: 1800px) {
+  .anime-img-1800 {
+    display: none;
+  }
+
+  .anime-img-1400 {
+    display: block;
+  }
+
+  .anime-img-1050 {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  .anime-img-1800 {
+    display: none;
+  }
+
+  .anime-img-1400 {
+    display: none;
+  }
+
+  .anime-img-1050 {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 1050px) {
+  .anime-img-1800 {
+    display: none;
+  }
+
+  .anime-img-1400 {
+    display: none;
+  }
+
+  .anime-img-1050 {
+    display: none;
+  }
+
+  .anime-main {
+    display: none;
+  }
+  #anime-static {
+    display: block;
+  }
+}
