@@ -1,16 +1,11 @@
-import Image from 'next/image';
-
 export const Sp: React.FC = () => {
-  const defaultText = `text-justify leading-8 mb-4`;
-  const bluishText = `text-[#5BC0EB]`;
-
   return (
     <div className="cursor-pointer mt-10">
       <p className="text-4xl font-bold mb-6 text-[#5BC0EB] text-start mt-12">
         S&P 500 Calculator
       </p>
 
-      <p className={defaultText}>
+      <p className="text-justify leading-8 mb-4">
         Unlock the power of financial foresight with our SP500 Compound ROI
         Calculator. Discover the potential growth of your investments with
         precision, as you effortlessly calculate compound returns based on the

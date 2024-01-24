@@ -1,18 +1,15 @@
 export const Memory: React.FC = () => {
-  const defaultText = `text-justify leading-8 mb-4`;
-  const bluishText = `text-[#5BC0EB]`;
-
   return (
     <div className="cursor-pointer mt-10">
       <p className="text-4xl font-bold mb-6 text-[#5BC0EB] text-start mt-12">
         Memory Master
       </p>
 
-      <p className={defaultText}>
+      <p className="text-justify leading-8 mb-4">
         The game was created entirely in {''}
-        <span className={bluishText}>Javascript</span> and uses localStorage to
-        store results, user settings and preferences. The website is fully
-        mobile and adapted to play on your phone.
+        <span className="`text-[#5BC0EB]`">Javascript</span> and uses
+        localStorage to store results, user settings and preferences. The
+        website is fully mobile and adapted to play on your phone.
         <br />
         <br />
         Brain training is based on the idea that mental stimulation can improve

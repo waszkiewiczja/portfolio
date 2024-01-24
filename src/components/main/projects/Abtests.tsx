@@ -1,19 +1,14 @@
-import Image from 'next/image';
-
 export const Abtests: React.FC = () => {
-  const defaultText = `text-justify leading-8 mb-4`;
-  const bluishText = `text-[#5BC0EB]`;
-
   return (
     <div className="cursor-pointer mt-10">
       <p className="text-4xl font-bold mb-6 text-[#5BC0EB] text-start mt-12">
         AB-tests.com
       </p>
 
-      <p className={defaultText}>
+      <p className="text-justify leading-8 mb-4">
         AB testing software built in {''}
-        <span className={bluishText}>React and Django</span> using {''}
-        <span className={bluishText}>
+        <span className="text-[#5BC0EB]">React and Django</span> using {''}
+        <span className="text-[#5BC0EB]">
           Django Rest Framework and Cookies.{''}
         </span>
         When loading the tested page, the script will distribute the traffic

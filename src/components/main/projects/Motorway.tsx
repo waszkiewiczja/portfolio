@@ -1,19 +1,13 @@
-import Image from 'next/image';
-
 export const Motorway: React.FC = () => {
-  const defaultText = `text-justify leading-8 mb-4`;
-  const bluishText = `text-[#5BC0EB]`;
-
   return (
     <div className="cursor-pointer mt-10">
       <p className="text-4xl font-bold mb-6 text-[#5BC0EB] text-start mt-12">
         MotorwayMap.com
       </p>
 
-      <p className={defaultText}>
+      <p className="text-justify leading-8 mb-4">
         The website was
-        <span className={bluishText}>
-          {' '}
+        <span className="text-[#5BC0EB]">
           {''}
           created using React, React-Router, Redux, Typescript and Django and
           uses the Leaflet map.{''}

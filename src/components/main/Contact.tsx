@@ -1,7 +1,4 @@
 export const Contact: React.FC = () => {
-  const defaultText = `text-justify leading-8`;
-  const blueishText = `text-[#5BC0EB]`;
-
   return (
     <section
       data-testid="contact"

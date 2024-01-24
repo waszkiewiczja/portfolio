@@ -1,25 +1,20 @@
-import Image from 'next/image';
-
 export const MyInvestment: React.FC = () => {
-  const defaultText = `text-justify leading-8 mb-4`;
-  const bluishText = `text-[#5BC0EB]`;
-
   return (
     <div className="cursor-pointer">
       <p className="text-4xl font-bold mb-6 text-[#5BC0EB] text-start mt-12">
         my-investment.com
       </p>
 
-      <p className={defaultText}>
+      <p className="text-justify leading-8 mb-4">
         www.my-investment.com is a website that allows you to observe selected
         investments. We can observe over 1,200 different investment instruments
         - shares, indices, currencies, raw materials, cryptocurrencies. We can
         browse the website anonymously or create an account and track the profit
         or loss from our investment on an ongoing basis. The website was created
         using
-        <span className={bluishText}> React, Typescript and Django. </span>
+        <span className="text-[#5BC0EB]"> React, Typescript and Django. </span>
         To read rates, it uses numerous
-        <span className={bluishText}>
+        <span className="text-[#5BC0EB]">
           {' '}
           public APIs, as well as private APIs and Data Scrape.{' '}
         </span>
