@@ -61,8 +61,8 @@ export const Memory: React.FC = () => {
       </p>
 
       <div className="flex justify-between">
-        <img src="/mm1.png" alt="Memory Master" width={500} />
-        <img src="/mm2.png" alt="Memory Master" width={500} />
+        <img src="mm1.png" alt="Memory Master" width={500} />
+        <img src="mm2.png" alt="Memory Master" width={500} />
       </div>
     </div>
   );

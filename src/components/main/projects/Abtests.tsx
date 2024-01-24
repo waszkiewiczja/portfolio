@@ -22,8 +22,8 @@ export const Abtests: React.FC = () => {
         display the same version again when they return to the website.
       </p>
       <div className="flex justify-between">
-        <img src="/ab1.png" alt="AB1" width={500} />
-        <img src="/ab2.png" alt="AB2" width={500} />
+        <img src="ab1.png" alt="AB1" width={500} />
+        <img src="ab2.png" alt="AB2" width={500} />
       </div>
     </div>
   );
