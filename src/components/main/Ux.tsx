@@ -22,7 +22,7 @@ export const Ux: React.FC = () => {
           cart&apos;, signing up for a service, filling out a form, or clicking
           on a link.
         </p>
-        <img src="/google-ux.png" alt="Google C" />
+        <img src="google-ux.png" alt="Google C" />
 
         <p className="text-4xl font-bold mb-6 text-[#5BC0EB] text-start mt-12">
           What are AB tests?

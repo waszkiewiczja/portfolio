@@ -24,7 +24,7 @@ export const Sp: React.FC = () => {
         </a>
       </p>
 
-      <img src="/sp.png" alt="S&P" />
+      <img src="sp.png" alt="S&P" />
     </div>
   );
 };

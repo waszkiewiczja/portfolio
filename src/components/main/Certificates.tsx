@@ -1,9 +1,9 @@
 export const Certificates: React.FC = () => {
   const certificates = [
-    ['/google-cybersecurity.png', 'Google Cybersecurity'],
-    ['/microsoft.png', 'Microsoft'],
-    ['/facebook.png', 'Facebook (Meta)'],
-    ['/ibm.png', 'IBM'],
+    ['google-cybersecurity.png', 'Google Cybersecurity'],
+    ['microsoft.png', 'Microsoft'],
+    ['facebook.png', 'Facebook (Meta)'],
+    ['ibm.png', 'IBM'],
   ];
 
   return (

@@ -34,7 +34,7 @@ export const Motorway: React.FC = () => {
         Leaflet and OpenStreetMap libraries were used to create the map.
       </p>
 
-      <img src="/map.png" alt="MotorwayMap" />
+      <img src="map.png" alt="MotorwayMap" />
     </div>
   );
 };

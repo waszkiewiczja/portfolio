@@ -29,7 +29,7 @@ export const MyInvestment: React.FC = () => {
         while the backend is handled by Django. The website is fully mobile and
         adapted to phones.
       </p>
-      <img src="/investment1.png" alt="investment" />
+      <img src="investment1.png" alt="investment" />
     </div>
   );
 };
