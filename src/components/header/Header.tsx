@@ -8,7 +8,7 @@ export const Header: React.FC = () => {
           d="M0 200 h250 a20,20 0 0 0 20,-20 v-50 a20,-20 0 0 1 20,-20 h50 a20,20 0 0 0 20,-20 v-100"
           fill="none"
           stroke="url(#grey-gradient)"
-          stroke-width="2"
+          strokeWidth="2"
           id="grey-shape-path"
         />
         <defs>
@@ -30,7 +30,7 @@ export const Header: React.FC = () => {
           d="M330 0 v100 a20,20 0 0 1 -20,20 h-200 a20,20 0 0 1 -20,-20 v-100"
           fill="none"
           stroke="url(#orange-gradient)"
-          stroke-width="2"
+          strokeWidth="2"
           id="orange-shape-path"
         />
         <defs>
@@ -58,7 +58,7 @@ export const Header: React.FC = () => {
           d="M600 300 v-100 a20,20 0 0 0 -20,-20 h-500 a20,20 0 0 1 -20,-20 v-200"
           fill="none"
           stroke="url(#blue-gradient)"
-          stroke-width="1"
+          strokeWidth="1"
           id="blue-shape-path"
         />
         <defs>

@@ -1,5 +1,3 @@
-import Image from 'next/image';
-
 export const Certificates: React.FC = () => {
   const certificates = [
     ['/google-cybersecurity.png', 'Google Cybersecurity'],

@@ -5,9 +5,6 @@ import { Memory } from './projects/Memory';
 import { Sp } from './projects/Sp';
 
 export const Projects: React.FC = () => {
-  const defaultText = `text-justify leading-8`;
-  const blueishText = `text-[#5BC0EB]`;
-
   return (
     <section
       data-testid="projects"

@@ -1,16 +1,11 @@
 'use client';
 import anime from 'animejs/lib/anime.es.js';
 import './UxAnimation.css';
-import { useEffect, useRef } from 'react';
+import { useEffect } from 'react';
 
 export const UxAnimation: React.FC = () => {
-  const defaultText = `text-justify leading-8`;
-  const blueishText = `text-[#5BC0EB]`;
-
-  const animation = useRef(null);
-
   useEffect(() => {
-    let path = anime.path('#anime-p1');
+    const path = anime.path('#anime-p1');
     anime({
       targets: '#anime-emoji',
       translateX: path('x'),
@@ -28,7 +23,7 @@ export const UxAnimation: React.FC = () => {
       loop: true,
     });
 
-    let path2 = anime.path('#anime-p2');
+    const path2 = anime.path('#anime-p2');
     anime({
       targets: '#anime-emoji2',
       translateX: path2('x'),
@@ -46,7 +41,7 @@ export const UxAnimation: React.FC = () => {
       },
     });
 
-    let path3 = anime.path('#anime-p3');
+    const path3 = anime.path('#anime-p3');
     anime({
       targets: '#anime-emoji3',
       translateX: path3('x'),
@@ -70,7 +65,7 @@ export const UxAnimation: React.FC = () => {
       loop: true,
     });
 
-    let path4 = anime.path('#anime-p4');
+    const path4 = anime.path('#anime-p4');
     anime({
       targets: '#anime-emoji4',
       translateX: path4('x'),
@@ -109,7 +104,7 @@ export const UxAnimation: React.FC = () => {
             <path
               id="anime-p1"
               stroke="rgb(234,241,255)"
-              stroke-width="20px"
+              strokeWidth="20px"
               fill="none"
               d="M 400 0 L 400 100 Q 400 150 250 150 Q 200 150 200 200 "
             ></path>
@@ -117,7 +112,7 @@ export const UxAnimation: React.FC = () => {
             <path
               id="anime-p2"
               stroke="rgb(234,241,255)"
-              stroke-width="20px"
+              strokeWidth="20px"
               fill="none"
               d="M 400 0 L 400 100 Q 400 150 550 150 Q 600 150 600 200 "
             ></path>
@@ -147,7 +142,7 @@ export const UxAnimation: React.FC = () => {
             <path
               id="anime-p3"
               stroke="rgb(234,241,255)"
-              stroke-width="20px"
+              strokeWidth="20px"
               fill="none"
               d="M 200 0 Q 200 50 250 50 Q 400 50 400 100 L 400 200 "
             ></path>
@@ -155,7 +150,7 @@ export const UxAnimation: React.FC = () => {
             <path
               id="anime-p4"
               stroke="rgb(234,241,255)"
-              stroke-width="20px"
+              strokeWidth="20px"
               fill="none"
               d="M 600 0 Q 600 50 550 50 Q 400 50 400 100 L 400 200 "
             ></path>
