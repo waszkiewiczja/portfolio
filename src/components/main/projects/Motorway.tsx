@@ -1,12 +1,12 @@
 export const Motorway: React.FC = () => {
   return (
-    <div className="cursor-pointer mt-10">
-      <p className="text-4xl font-bold mb-6 text-[#5BC0EB] text-start mt-12">
+    <div className="mt-10">
+      <p className="text-3xl font-bold mb-6 text-[#5BC0EB] text-start mt-12 md:text-4xl">
         MotorwayMap.com
       </p>
 
       <p className="text-justify leading-8 mb-4">
-        The website was
+        The website was {''}
         <span className="text-[#5BC0EB]">
           {''}
           created using React, React-Router, Redux, Typescript and Django and

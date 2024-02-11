@@ -1,7 +1,7 @@
 'use client';
+import { useEffect } from 'react';
 import anime from 'animejs/lib/anime.es.js';
 import './UxAnimation.css';
-import { useEffect } from 'react';
 
 export const UxAnimation: React.FC = () => {
   useEffect(() => {

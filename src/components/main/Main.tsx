@@ -1,4 +1,3 @@
-'use clinet';
 import { Welcome } from './Welcome';
 import { Certificates } from './Certificates';
 import { Projects } from './Projects';
@@ -8,7 +7,10 @@ import { Ux } from './Ux';
 
 export const Main: React.FC = () => {
   return (
-    <main className="mt-40 text-center flex flex-col justify-center w-full ">
+    <main
+      className="text-center flex flex-col justify-center w-full p-8 2xl:mt-40 "
+      data-testid="main"
+    >
       <Welcome />
       <Certificates />
       <Projects />
