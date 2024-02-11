@@ -1,3 +1,8 @@
+'use client';
+import 'photoswipe/dist/photoswipe.css';
+import { Gallery, Item } from 'react-photoswipe-gallery';
+import Image from 'next/image';
+
 export const Certificates: React.FC = () => {
   const certificates: string[][] = [
     ['google-cybersecurity.png', 'Google Cybersecurity'],
@@ -24,15 +29,38 @@ export const Certificates: React.FC = () => {
         Google, Microsoft and IBM, and whose acquisition meant participation in
         many months of workshops, practical classes and passing the exams.
       </p>
+      <Gallery>
+        {certificates.map(([src, title]) => {
+          const modalHeight = `${src === 'microsoft.png' ? 850 : 1250}`;
 
-      {certificates.map(([src, title]) => (
-        <div key={src} className="cursor-pointer">
-          <p className="text-3xl font-bold mb-6 text-[#5BC0EB] text-start mt-12 md:text-4xl">
-            {title}
-          </p>
-          <img src={src} alt={title} />
-        </div>
-      ))}
+          return (
+            <div key={src} className="cursor-pointer">
+              <p className="text-3xl font-bold mb-6 text-[#5BC0EB] text-start mt-12 md:text-4xl">
+                {title}
+              </p>
+              <Item
+                original={src}
+                thumbnail={src}
+                width="1600"
+                height={modalHeight}
+              >
+                {({ ref, open }) => (
+                  <Image
+                    ref={ref}
+                    onClick={open}
+                    src={src}
+                    alt={title}
+                    width={0}
+                    height={0}
+                    sizes="100vw"
+                    style={{ width: '100%', height: 'auto' }}
+                  ></Image>
+                )}
+              </Item>
+            </div>
+          );
+        })}
+      </Gallery>
     </section>
   );
 };

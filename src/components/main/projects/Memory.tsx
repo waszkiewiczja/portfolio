@@ -1,7 +1,7 @@
 'use client';
-import Image from 'next/image';
 import 'photoswipe/dist/photoswipe.css';
 import { Gallery, Item } from 'react-photoswipe-gallery';
+import Image from 'next/image';
 
 export const Memory: React.FC = () => {
   return (
@@ -65,41 +65,34 @@ export const Memory: React.FC = () => {
         </a>
       </p>
 
-      <div className="flex flex-col justify-center items-center lg:justify-between lg:flex-row gap-4  ">
-        {/* <img src="mm1.png" alt="Memory Master" width={500} />
-        <img src="mm2.png" alt="Memory Master" width={500} /> */}
-
+      <div className="flex flex-col justify-center items-center lg:justify-between lg:flex-row gap-4 cursor-pointer ">
         <Gallery>
           <Item original="mm1.png" thumbnail="mm1.png" width="685" height="856">
             {({ ref, open }) => (
-              // <img
-              //   ref={ref}
-              //   onClick={open}
-              //   src="mm1.png"
-              //   alt="MM Start"
-              //   width={500}
-              // />
               <Image
                 ref={ref}
                 onClick={open}
                 src="mm1.png"
                 alt="MM Start"
-                width={0}
+                width={500}
                 height={0}
                 sizes="100vw"
-                style={{ width: '100%', height: 'auto' }}
+                style={{ height: 'auto' }}
               ></Image>
             )}
           </Item>
           <Item original="mm2.png" thumbnail="mm2.png" width="685" height="856">
             {({ ref, open }) => (
-              <img
+              <Image
                 ref={ref}
                 onClick={open}
                 src="mm2.png"
                 alt="MM Play"
                 width={500}
-              />
+                height={0}
+                sizes="100vw"
+                style={{ height: 'auto' }}
+              ></Image>
             )}
           </Item>
         </Gallery>
