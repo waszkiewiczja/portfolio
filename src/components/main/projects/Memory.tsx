@@ -1,4 +1,21 @@
+'use client';
+import 'photoswipe/dist/photoswipe.css';
+import { Gallery, Item } from 'react-photoswipe-gallery';
+
 export const Memory: React.FC = () => {
+  const photos = [
+    {
+      src: 'mm1.png',
+      width: 1,
+      height: 1,
+    },
+    {
+      src: 'mm2.png',
+      width: 1,
+      height: 1,
+    },
+  ];
+
   return (
     <div className="mt-10">
       <p className="text-3xl font-bold mb-6 text-[#5BC0EB] text-start mt-12 md:text-4xl">
@@ -61,8 +78,33 @@ export const Memory: React.FC = () => {
       </p>
 
       <div className="flex flex-col justify-center items-center lg:justify-between lg:flex-row gap-4  ">
-        <img src="mm1.png" alt="Memory Master" width={500} />
-        <img src="mm2.png" alt="Memory Master" width={500} />
+        {/* <img src="mm1.png" alt="Memory Master" width={500} />
+        <img src="mm2.png" alt="Memory Master" width={500} /> */}
+
+        <Gallery>
+          <Item original="mm1.png" thumbnail="mm1.png" width="685" height="856">
+            {({ ref, open }) => (
+              <img
+                ref={ref}
+                onClick={open}
+                src="mm1.png"
+                alt="MM Start"
+                width={500}
+              />
+            )}
+          </Item>
+          <Item original="mm2.png" thumbnail="mm2.png" width="685" height="856">
+            {({ ref, open }) => (
+              <img
+                ref={ref}
+                onClick={open}
+                src="mm2.png"
+                alt="MM Play"
+                width={500}
+              />
+            )}
+          </Item>
+        </Gallery>
       </div>
     </div>
   );
