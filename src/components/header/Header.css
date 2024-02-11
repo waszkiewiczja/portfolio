@@ -65,3 +65,9 @@
     stroke-dashoffset: -863;
   }
 }
+
+@media (max-width: 1919px) {
+  header {
+    display: none;
+  }
+}

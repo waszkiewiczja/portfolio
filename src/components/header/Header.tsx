@@ -2,7 +2,7 @@ import './Header.css';
 
 export const Header: React.FC = () => {
   return (
-    <header>
+    <header data-testid="header">
       <svg width="540" height="240" id="grey-rect" className="grey-shape">
         <path
           d="M0 200 h250 a20,20 0 0 0 20,-20 v-50 a20,-20 0 0 1 20,-20 h50 a20,20 0 0 0 20,-20 v-100"

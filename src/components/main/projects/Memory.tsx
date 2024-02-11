@@ -1,7 +1,7 @@
 export const Memory: React.FC = () => {
   return (
-    <div className="cursor-pointer mt-10">
-      <p className="text-4xl font-bold mb-6 text-[#5BC0EB] text-start mt-12">
+    <div className="mt-10">
+      <p className="text-3xl font-bold mb-6 text-[#5BC0EB] text-start mt-12 md:text-4xl">
         Memory Master
       </p>
 
@@ -53,14 +53,14 @@ export const Memory: React.FC = () => {
         Play Here {''}
         <a
           className="text-[#5BC0EB]"
-          href="https://waszkiewiczja.github.io/MemoryMaster/"
+          href="https://memorymaster.vercel.app/"
           target="blank"
         >
-          waszkiewiczja.github.io/Mistrz/
+          memorymaster.vercel.app/
         </a>
       </p>
 
-      <div className="flex justify-between">
+      <div className="flex flex-col justify-center items-center lg:justify-between lg:flex-row gap-4  ">
         <img src="mm1.png" alt="Memory Master" width={500} />
         <img src="mm2.png" alt="Memory Master" width={500} />
       </div>

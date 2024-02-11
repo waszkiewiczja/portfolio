@@ -4,14 +4,17 @@ export const Ux: React.FC = () => {
   return (
     <section
       data-testid="ux"
-      className="text-center flex flex-col justify-center max-w-screen-lg mx-auto mt-48 w-full"
+      className="text-center flex flex-col justify-center max-w-screen-lg mx-auto mt-24 md:mt-48 w-full"
     >
-      <p className="text-6xl font-bold mb-10 text-white text-start" id="ux">
+      <p
+        className="text-4xl font-bold md:mb-10 text-white text-start md:text-6xl"
+        id="ux"
+      >
         <span className="text-[#5BC0EB]">3. </span>
         UX/UI and CRO
       </p>
 
-      <p className="text-4xl font-bold mb-6 text-[#5BC0EB] text-start mt-12">
+      <p className="text-3xl md:text-4xl font-bold mb-6 text-[#5BC0EB] text-start mt-12">
         CRO
       </p>
       <p className="text-justify leading-8 mb-4">
@@ -23,7 +26,7 @@ export const Ux: React.FC = () => {
       </p>
       <img src="google-ux.png" alt="Google C" />
 
-      <p className="text-4xl font-bold mb-6 text-[#5BC0EB] text-start mt-12">
+      <p className="text-3xl md:text-4xl font-bold mb-6 text-[#5BC0EB] text-start mt-12">
         What are AB tests?
       </p>
       <p className="text-justify leading-8 mb-10">
@@ -48,7 +51,7 @@ export const Ux: React.FC = () => {
 
       <UxAnimation />
 
-      <p className="text-4xl font-bold mb-6 text-[#5BC0EB] text-start mt-12">
+      <p className="text-3xl md:text-4xl font-bold mb-6 text-[#5BC0EB] text-start mt-12">
         KPIs
       </p>
       <p className="text-justify leading-8 mb-4">

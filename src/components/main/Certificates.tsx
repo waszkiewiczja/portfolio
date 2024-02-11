@@ -1,7 +1,7 @@
 export const Certificates: React.FC = () => {
-  const certificates = [
+  const certificates: string[][] = [
     ['google-cybersecurity.png', 'Google Cybersecurity'],
-    ['microsoft.png', 'Microsoft'],
+    ['microsoft.png', 'Microsoft Azure'],
     ['facebook.png', 'Facebook (Meta)'],
     ['ibm.png', 'IBM'],
   ];
@@ -9,10 +9,10 @@ export const Certificates: React.FC = () => {
   return (
     <section
       data-testid="certificates"
-      className="text-center flex flex-col justify-center max-w-screen-lg mx-auto"
+      className="text-center flex flex-col justify-center max-w-screen-lg mx-auto mt-12 md:mt-0"
     >
       <p
-        className="text-6xl font-bold mb-10 text-white text-start"
+        className="text-4xl font-bold mb-10 text-white text-start md:text-6xl"
         id="certificates"
       >
         <span className="text-[#5BC0EB]">1. </span>
@@ -27,7 +27,7 @@ export const Certificates: React.FC = () => {
 
       {certificates.map(([src, title]) => (
         <div key={src} className="cursor-pointer">
-          <p className="text-4xl font-bold mb-6 text-[#5BC0EB] text-start mt-12">
+          <p className="text-3xl font-bold mb-6 text-[#5BC0EB] text-start mt-12 md:text-4xl">
             {title}
           </p>
           <img src={src} alt={title} />

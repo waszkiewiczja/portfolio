@@ -2,14 +2,17 @@ export const About: React.FC = () => {
   return (
     <section
       data-testid="about"
-      className="text-center flex flex-col justify-center max-w-screen-lg mx-auto mt-48 w-full"
+      className="text-center flex flex-col justify-center max-w-screen-lg mx-auto mt-24 md:mt-48 w-full"
     >
-      <p className="text-6xl font-bold mb-10 text-white text-start" id="about">
+      <p
+        className="text-4xl font-bold md:mb-10 text-white text-start md:text-6xl"
+        id="about"
+      >
         <span className="text-[#5BC0EB]">4. </span>
         About me
       </p>
 
-      <p className="text-4xl font-bold mb-6 text-[#5BC0EB] text-start mt-12">
+      <p className="text-3xl md:text-4xl font-bold mb-6 text-[#5BC0EB] text-start mt-12">
         Info
       </p>
       <p className="text-justify leading-8">
@@ -24,10 +27,10 @@ export const About: React.FC = () => {
         CodeWars and creating your own projects and application.
       </p>
 
-      <p className="text-4xl font-bold mb-6 text-[#5BC0EB] text-start mt-12">
+      <p className="text-3xl md:text-4xl font-bold mb-6 text-[#5BC0EB] text-start mt-12">
         Work history
       </p>
-      <p className="text-justify leading-8">
+      <p className="text-start leading-8">
         09.2022 - 01.2024 - Software Center, Capgemini Poland - Senior Front-End
         developer
         <br />
@@ -38,10 +41,10 @@ export const About: React.FC = () => {
         09.2014 - 03.2021 - JWAW - Digital marketing specialist
       </p>
 
-      <p className="text-4xl font-bold mb-6 text-[#5BC0EB] text-start mt-12">
+      <p className="text-3xl md:text-4xl font-bold mb-6 text-[#5BC0EB] text-start mt-12">
         Education
       </p>
-      <p className="text-justify leading-8">
+      <p className="text-start leading-8">
         Gdynia Maritime University - Offshore Technologies - master&apos;s
         degree 2014
         <br />

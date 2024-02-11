@@ -8,10 +8,10 @@ export const Projects: React.FC = () => {
   return (
     <section
       data-testid="projects"
-      className="text-center flex flex-col justify-center max-w-screen-lg mx-auto mt-48"
+      className="text-center flex flex-col justify-center max-w-screen-lg mx-auto mt-24 md:mt-48"
     >
       <p
-        className="text-6xl font-bold mb-10 text-white text-start"
+        className="text-4xl font-bold mb-10 text-white text-start md:text-6xl"
         id="projects"
       >
         <span className="text-[#5BC0EB]">2. </span>

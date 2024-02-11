@@ -1,7 +1,7 @@
 export const Abtests: React.FC = () => {
   return (
-    <div className="cursor-pointer mt-10">
-      <p className="text-4xl font-bold mb-6 text-[#5BC0EB] text-start mt-12">
+    <div className="mt-10">
+      <p className="text-3xl font-bold mb-6 text-[#5BC0EB] text-start mt-12 md:text-4xl">
         AB-tests.com
       </p>
 
@@ -21,7 +21,7 @@ export const Abtests: React.FC = () => {
         page. Cookies remember which version was displayed to the user and
         display the same version again when they return to the website.
       </p>
-      <div className="flex justify-between">
+      <div className="flex flex-col justify-center items-center lg:justify-between lg:flex-row gap-4  ">
         <img src="ab1.png" alt="AB1" width={500} />
         <img src="ab2.png" alt="AB2" width={500} />
       </div>

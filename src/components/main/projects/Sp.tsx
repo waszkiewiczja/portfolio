@@ -1,7 +1,9 @@
+import Image from 'next/image';
+
 export const Sp: React.FC = () => {
   return (
-    <div className="cursor-pointer mt-10">
-      <p className="text-4xl font-bold mb-6 text-[#5BC0EB] text-start mt-12">
+    <div className="mt-10">
+      <p className="text-3xl font-bold mb-6 text-[#5BC0EB] text-start mt-12 md:text-4xl">
         S&P 500 Calculator
       </p>
 
@@ -17,10 +19,10 @@ export const Sp: React.FC = () => {
         Calculate Here {''}
         <a
           className="text-[#5BC0EB]"
-          href="https://waszkiewiczja.github.io/sp500/"
+          href="https://investor-center.vercel.app/charts"
           target="blank"
         >
-          https://waszkiewiczja.github.io/sp500/
+          investor-center.vercel.app/
         </a>
       </p>
 

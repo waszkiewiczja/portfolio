@@ -1,7 +1,7 @@
 export const MyInvestment: React.FC = () => {
   return (
-    <div className="cursor-pointer">
-      <p className="text-4xl font-bold mb-6 text-[#5BC0EB] text-start mt-12">
+    <div>
+      <p className="text-3xl font-bold mb-6 text-[#5BC0EB] text-start mt-12 md:text-4xl">
         my-investment.com
       </p>
 
