@@ -1,3 +1,8 @@
+'use client';
+import 'photoswipe/dist/photoswipe.css';
+import { Gallery, Item } from 'react-photoswipe-gallery';
+import Image from 'next/image';
+
 export const MyInvestment: React.FC = () => {
   return (
     <div>
@@ -29,7 +34,27 @@ export const MyInvestment: React.FC = () => {
         while the backend is handled by Django. The website is fully mobile and
         adapted to phones.
       </p>
-      <img src="investment1.png" alt="investment" />
+      <Gallery>
+        <Item
+          original="investment1.png"
+          thumbnail="investment1.png"
+          width="1900"
+          height="900"
+        >
+          {({ ref, open }) => (
+            <Image
+              ref={ref}
+              onClick={open}
+              src="investment1.png"
+              alt="Investment"
+              width={0}
+              height={0}
+              sizes="100vw"
+              className="cursor-pointer w-full h-fit"
+            ></Image>
+          )}
+        </Item>
+      </Gallery>
     </div>
   );
 };

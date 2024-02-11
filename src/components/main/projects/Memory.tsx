@@ -65,33 +65,33 @@ export const Memory: React.FC = () => {
         </a>
       </p>
 
-      <div className="flex flex-col justify-center items-center lg:justify-between lg:flex-row gap-4 cursor-pointer ">
+      <div className="flex flex-col justify-center items-center lg:justify-between lg:flex-row gap-4 ">
         <Gallery>
-          <Item original="mm1.png" thumbnail="mm1.png" width="685" height="856">
+          <Item original="mm1.jpg" thumbnail="mm1.jpg" width="685" height="840">
             {({ ref, open }) => (
               <Image
                 ref={ref}
                 onClick={open}
-                src="mm1.png"
+                src="mm1.jpg"
                 alt="MM Start"
                 width={500}
                 height={0}
                 sizes="100vw"
-                style={{ height: 'auto' }}
+                className="cursor-pointer h-fit"
               ></Image>
             )}
           </Item>
-          <Item original="mm2.png" thumbnail="mm2.png" width="685" height="856">
+          <Item original="mm2.jpg" thumbnail="mm2.jpg" width="685" height="840">
             {({ ref, open }) => (
               <Image
                 ref={ref}
                 onClick={open}
-                src="mm2.png"
+                src="mm2.jpg"
                 alt="MM Play"
                 width={500}
                 height={0}
                 sizes="100vw"
-                style={{ height: 'auto' }}
+                className="cursor-pointer h-fit"
               ></Image>
             )}
           </Item>
