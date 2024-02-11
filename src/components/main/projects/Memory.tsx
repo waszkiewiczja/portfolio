@@ -87,7 +87,7 @@ export const Memory: React.FC = () => {
                 width={0}
                 height={0}
                 sizes="100vw"
-                style={{ width: '500', height: 'auto' }}
+                style={{ width: '100%', height: 'auto' }}
               ></Image>
             )}
           </Item>
