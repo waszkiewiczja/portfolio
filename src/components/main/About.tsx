@@ -21,13 +21,20 @@ export const About: React.FC = () => {
         methods and tools. <br />
         <br />
         During my studies, I worked part-time in internet marketing and after
-        that After completing them, I stayed in this industry. In 2019 I decided
-        change the industry and started learning programming in Javascript and
-        Django. From YouTube videos to Udemy courses to... solving tasks on
-        CodeWars and creating your own projects and application.
+        completing them, I stayed in this industry. In 2019 I decided change the
+        industry and started learning programming in Javascript and Django. From
+        YouTube videos to Udemy courses to solving tasks on CodeWars and
+        creating my own projects and application.
       </p>
 
-      <p className="text-3xl md:text-4xl font-bold mb-6 text-[#5BC0EB] text-start mt-12">
+      <p className="text-3xl md:text-4xl font-bold mb-6 text-[#5BC0EB] text-start mt-14">
+        Open Source
+      </p>
+      <p className="text-start leading-8">
+        Contributing to Chart.js - chartjs.org
+      </p>
+
+      <p className="text-3xl md:text-4xl font-bold mb-6 text-[#5BC0EB] text-start mt-14">
         Work history
       </p>
       <p className="text-start leading-8">
@@ -41,7 +48,7 @@ export const About: React.FC = () => {
         09.2014 - 03.2021 - JWAW - Digital marketing specialist
       </p>
 
-      <p className="text-3xl md:text-4xl font-bold mb-6 text-[#5BC0EB] text-start mt-12">
+      <p className="text-3xl md:text-4xl font-bold mb-6 text-[#5BC0EB] text-start mt-14">
         Education
       </p>
       <p className="text-start leading-8">

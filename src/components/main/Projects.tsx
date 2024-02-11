@@ -20,12 +20,11 @@ export const Projects: React.FC = () => {
       <p className="text-justify leading-8">
         Short recap of some projects created by myself.
       </p>
-
+      <Sp />
       <MyInvestment />
       <Abtests />
       <Motorway />
       <Memory />
-      <Sp />
     </section>
   );
 };
