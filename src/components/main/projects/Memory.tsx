@@ -3,19 +3,6 @@ import 'photoswipe/dist/photoswipe.css';
 import { Gallery, Item } from 'react-photoswipe-gallery';
 
 export const Memory: React.FC = () => {
-  const photos = [
-    {
-      src: 'mm1.png',
-      width: 1,
-      height: 1,
-    },
-    {
-      src: 'mm2.png',
-      width: 1,
-      height: 1,
-    },
-  ];
-
   return (
     <div className="mt-10">
       <p className="text-3xl font-bold mb-6 text-[#5BC0EB] text-start mt-12 md:text-4xl">

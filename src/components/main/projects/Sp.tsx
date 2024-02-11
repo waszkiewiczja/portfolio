@@ -1,5 +1,3 @@
-import Image from 'next/image';
-
 export const Sp: React.FC = () => {
   return (
     <div className="mt-10">

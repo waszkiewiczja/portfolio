@@ -1,4 +1,3 @@
-import { Welcome } from './Welcome';
 import { Certificates } from './Certificates';
 import { Projects } from './Projects';
 import { Contact } from './Contact';
