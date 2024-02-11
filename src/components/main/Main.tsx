@@ -4,14 +4,15 @@ import { Projects } from './Projects';
 import { Contact } from './Contact';
 import { About } from './About';
 import { Ux } from './Ux';
+import { FirstScreen } from './FirstScreen';
 
 export const Main: React.FC = () => {
   return (
     <main
-      className="text-center flex flex-col justify-center w-full p-8 2xl:mt-40 "
+      className="text-center flex flex-col justify-center w-full p-8  "
       data-testid="main"
     >
-      <Welcome />
+      <FirstScreen />
       <Certificates />
       <Projects />
       <Ux />

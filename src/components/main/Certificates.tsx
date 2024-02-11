@@ -1,15 +1,15 @@
 export const Certificates: React.FC = () => {
   const certificates: string[][] = [
     ['google-cybersecurity.png', 'Google Cybersecurity'],
-    ['microsoft.png', 'Microsoft Azure'],
-    ['facebook.png', 'Facebook (Meta)'],
-    ['ibm.png', 'IBM'],
+    ['microsoft.png', 'Microsoft Azure Developer'],
+    ['facebook.png', 'Meta Front-End Developer'],
+    ['ibm.png', 'IBM Developing Front-End Apps with React'],
   ];
 
   return (
     <section
       data-testid="certificates"
-      className="text-center flex flex-col justify-center max-w-screen-lg mx-auto mt-12 md:mt-0"
+      className="text-center flex flex-col justify-center max-w-screen-lg mx-auto mt-12 md:mt-6 2xl:mt-0"
     >
       <p
         className="text-4xl font-bold mb-10 text-white text-start md:text-6xl"
