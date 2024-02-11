@@ -1,4 +1,5 @@
 'use client';
+import Image from 'next/image';
 import 'photoswipe/dist/photoswipe.css';
 import { Gallery, Item } from 'react-photoswipe-gallery';
 
@@ -71,13 +72,23 @@ export const Memory: React.FC = () => {
         <Gallery>
           <Item original="mm1.png" thumbnail="mm1.png" width="685" height="856">
             {({ ref, open }) => (
-              <img
+              // <img
+              //   ref={ref}
+              //   onClick={open}
+              //   src="mm1.png"
+              //   alt="MM Start"
+              //   width={500}
+              // />
+              <Image
                 ref={ref}
                 onClick={open}
                 src="mm1.png"
                 alt="MM Start"
-                width={500}
-              />
+                width={0}
+                height={0}
+                sizes="100vw"
+                style={{ width: '100%', height: 'auto' }}
+              ></Image>
             )}
           </Item>
           <Item original="mm2.png" thumbnail="mm2.png" width="685" height="856">
