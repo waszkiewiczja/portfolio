@@ -1,3 +1,7 @@
+'use client';
+import 'photoswipe/dist/photoswipe.css';
+import { Gallery, Item } from 'react-photoswipe-gallery';
+import Image from 'next/image';
 import { UxAnimation } from './UxAnimation';
 
 export const Ux: React.FC = () => {
@@ -24,7 +28,27 @@ export const Ux: React.FC = () => {
         cart&apos;, signing up for a service, filling out a form, or clicking on
         a link.
       </p>
-      <img src="google-ux.png" alt="Google C" />
+      <Gallery>
+        <Item
+          original="google-ux.png"
+          thumbnail="google-ux.png"
+          width="1600"
+          height="1250"
+        >
+          {({ ref, open }) => (
+            <Image
+              ref={ref}
+              onClick={open}
+              src="google-ux.png"
+              alt="UX/UI"
+              width={0}
+              height={0}
+              sizes="100vw"
+              className="cursor-pointer w-full h-fit"
+            ></Image>
+          )}
+        </Item>
+      </Gallery>
 
       <p className="text-3xl md:text-4xl font-bold mb-6 text-[#5BC0EB] text-start mt-12">
         What are AB tests?
@@ -82,7 +106,27 @@ export const Ux: React.FC = () => {
         people go to the cart from the second version, we have a 30% conversion.
       </p>
 
-      <img src="conversion.png" alt="Conversion" />
+      <Gallery>
+        <Item
+          original="conversion.png"
+          thumbnail="conversion.png"
+          width="1000"
+          height="600"
+        >
+          {({ ref, open }) => (
+            <Image
+              ref={ref}
+              onClick={open}
+              src="conversion.png"
+              alt="Conversion"
+              width={0}
+              height={0}
+              sizes="100vw"
+              className="cursor-pointer w-full h-fit"
+            ></Image>
+          )}
+        </Item>
+      </Gallery>
     </section>
   );
 };

@@ -35,7 +35,7 @@ export const Certificates: React.FC = () => {
 
           return (
             <div key={src} className="cursor-pointer">
-              <p className="text-3xl font-bold mb-6 text-[#5BC0EB] text-start mt-12 md:text-4xl">
+              <p className="text-3xl font-bold mb-6 text-[#5BC0EB] text-start mt-14 md:text-4xl cursor-default">
                 {title}
               </p>
               <Item

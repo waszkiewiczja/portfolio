@@ -7,10 +7,7 @@ import { FirstScreen } from './FirstScreen';
 
 export const Main: React.FC = () => {
   return (
-    <main
-      className="text-center flex flex-col justify-center w-full p-8  "
-      data-testid="main"
-    >
+    <main className="text-center flex flex-col justify-center w-full p-8  ">
       <FirstScreen />
       <Certificates />
       <Projects />

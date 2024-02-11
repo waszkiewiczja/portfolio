@@ -1,3 +1,8 @@
+'use client';
+import 'photoswipe/dist/photoswipe.css';
+import { Gallery, Item } from 'react-photoswipe-gallery';
+import Image from 'next/image';
+
 export const Motorway: React.FC = () => {
   return (
     <div className="mt-10">
@@ -34,7 +39,22 @@ export const Motorway: React.FC = () => {
         Leaflet and OpenStreetMap libraries were used to create the map.
       </p>
 
-      <img src="map.png" alt="MotorwayMap" />
+      <Gallery>
+        <Item original="map.png" thumbnail="map.png" width="1900" height="950">
+          {({ ref, open }) => (
+            <Image
+              ref={ref}
+              onClick={open}
+              src="map.png"
+              alt="MotorwayMap"
+              width={0}
+              height={0}
+              sizes="100vw"
+              className="cursor-pointer w-full h-fit"
+            ></Image>
+          )}
+        </Item>
+      </Gallery>
     </div>
   );
 };

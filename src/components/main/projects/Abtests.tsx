@@ -1,3 +1,8 @@
+'use client';
+import 'photoswipe/dist/photoswipe.css';
+import { Gallery, Item } from 'react-photoswipe-gallery';
+import Image from 'next/image';
+
 export const Abtests: React.FC = () => {
   return (
     <div className="mt-10">
@@ -21,9 +26,38 @@ export const Abtests: React.FC = () => {
         page. Cookies remember which version was displayed to the user and
         display the same version again when they return to the website.
       </p>
-      <div className="flex flex-col justify-center items-center lg:justify-between lg:flex-row gap-4  ">
-        <img src="ab1.png" alt="AB1" width={500} />
-        <img src="ab2.png" alt="AB2" width={500} />
+
+      <div className="flex flex-col justify-center items-center lg:justify-between lg:flex-row gap-4 ">
+        <Gallery>
+          <Item original="ab1.png" thumbnail="ab1.png" width="800" height="800">
+            {({ ref, open }) => (
+              <Image
+                ref={ref}
+                onClick={open}
+                src="ab1.png"
+                alt="AB1"
+                width={500}
+                height={0}
+                sizes="100vw"
+                className="cursor-pointer h-fit"
+              ></Image>
+            )}
+          </Item>
+          <Item original="ab2.png" thumbnail="ab2.png" width="800" height="800">
+            {({ ref, open }) => (
+              <Image
+                ref={ref}
+                onClick={open}
+                src="ab2.png"
+                alt="AB2"
+                width={500}
+                height={0}
+                sizes="100vw"
+                className="cursor-pointer h-fit"
+              ></Image>
+            )}
+          </Item>
+        </Gallery>
       </div>
     </div>
   );

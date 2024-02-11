@@ -112,8 +112,6 @@ export const Sp: React.FC = () => {
           </Item>
         </Gallery>
       </div>
-
-      {/* <img src="sp.png" alt="S&P" /> */}
     </div>
   );
 };
