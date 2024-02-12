@@ -7,7 +7,7 @@ export const Abtests: React.FC = () => {
   return (
     <div className="mt-10">
       <p className="text-3xl font-bold mb-6 text-[#5BC0EB] text-start mt-12 md:text-4xl">
-        AB-tests.com
+        AB-tests
       </p>
 
       <p className="text-justify leading-8 mb-4">
