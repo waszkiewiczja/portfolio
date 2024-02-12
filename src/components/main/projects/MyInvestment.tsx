@@ -7,11 +7,11 @@ export const MyInvestment: React.FC = () => {
   return (
     <div className="mt-10">
       <p className="text-3xl font-bold mb-6 text-[#5BC0EB] text-start mt-12 md:text-4xl">
-        my-investment.com
+        My Investment
       </p>
 
       <p className="text-justify leading-8 mb-4">
-        www.my-investment.com is a website that allows you to observe selected
+        My Investment is a website that allows you to observe selected
         investments. We can observe over 1,200 different investment instruments
         - shares, indices, currencies, raw materials, cryptocurrencies. We can
         browse the website anonymously or create an account and track the profit

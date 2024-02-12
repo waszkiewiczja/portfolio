@@ -14,9 +14,9 @@ export const Projects: React.FC = () => {
       <Title />
       <Sp />
       <MyInvestment />
+      <Memory />
       <Abtests />
       <Motorway />
-      <Memory />
     </section>
   );
 };
