@@ -5,15 +5,22 @@ import Image from 'next/image';
 
 export const Sp: React.FC = () => {
   return (
-    <div className="mt-10">
+    <div>
       <p className="text-3xl font-bold mb-6 text-[#5BC0EB] text-start mt-12 md:text-4xl">
         S&P 500 Charts and Calculator
       </p>
+      <Image
+        src="logoinvestor.jpg"
+        alt="Investor Center"
+        width={200}
+        height={0}
+        sizes="100vw"
+        className="cursor-default h-fit float-left mr-5 md:mr-10 "
+      ></Image>
       <p className="text-justify leading-8 mb-4">
         Website created using{' '}
         <span className="text-[#5BC0EB]">{''}Next.js, Chart.js and D3</span>.
       </p>
-
       <p className="text-justify leading-8 mb-4">
         Unlock the power of financial foresight with our SP500 Compound ROI
         Calculator. Discover the potential growth of your investments with
@@ -21,9 +28,17 @@ export const Sp: React.FC = () => {
         historic performance of the S&P 500. Make informed decisions and
         navigate your financial journey with confidence. Try it now and empower
         your wealth-building strategy!
-        <br />
-        <br />
-        Calculate Here {''}
+      </p>
+      <p className="text-justify leading-8 mb-4">
+        Our user-friendly interface brings financial data to life, empowering
+        investors, analysts, and enthusiasts to visualize and understand the
+        dynamics of the market. Elevate your financial acumen, explore
+        historical trends, and gain a competitive edge – all in one centralized
+        hub. Start charting your success with our S&P 500 data visualization
+        platform today
+      </p>
+      <p className="text-justify leading-8 mb-4">
+        Visit Here {''}
         <a
           className="text-[#5BC0EB]"
           href="https://investor-center.vercel.app/charts"

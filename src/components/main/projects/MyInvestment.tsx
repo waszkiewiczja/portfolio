@@ -5,7 +5,7 @@ import Image from 'next/image';
 
 export const MyInvestment: React.FC = () => {
   return (
-    <div>
+    <div className="mt-10">
       <p className="text-3xl font-bold mb-6 text-[#5BC0EB] text-start mt-12 md:text-4xl">
         my-investment.com
       </p>
@@ -26,8 +26,8 @@ export const MyInvestment: React.FC = () => {
         It uses, among others: API of the National Bank of Poland, API of the
         Bitbay exchange, API of the Coingecko exchange and API of the IEX
         platform to display investment rates in real time.
-        <br />
-        <br />
+      </p>
+      <p className="text-justify leading-8 mb-4">
         We can track shares from the Warsaw Stock Exchange, the US Stock
         Exchange, the gold and silver raw material market, the cryptocurrency
         market and the index market. The interface is operated in JavaScript,
