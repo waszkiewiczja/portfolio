@@ -12,7 +12,6 @@ export const Contact: React.FC = () => {
         Contact
       </p>
       <p className="text-start leading-8 mb-4 ">You can contact me: </p>
-      <p className="text-start leading-8 mb-4 ">508375577 </p>
       <p className="text-start leading-8 mb-4 ">
         jedrzej.waszkiewicz@gmail.com
       </p>

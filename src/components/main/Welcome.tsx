@@ -21,20 +21,16 @@ export const Welcome: React.FC = () => {
         className="mx-auto md:w-1/3 md:text-center  font-normal text-xl mb-10 leading-8"
         data-testid="welcome-subheading1"
       >
-        Experienced Senior Developer specializing in UX/UI design with a strong
-        proficiency in Typescript, React, and Next.js.
-        <br className="md:hidden"></br> <br className="md:hidden"></br> Proven
-        track record of creating seamless and visually appealing user
-        interfaces, coupled with expertise in modern front-end development.
+        Experienced Senior Frontend Developer specializing in UX/UI design, React, TypeScript, and Next.js.
+        <br className="md:hidden"></br> <br className="md:hidden"></br> 
+        I have a proven track record of developing high-performance, user-friendly web applications that prioritize both aesthetics and functionality.
       </div>
 
       <div
         className="mx-auto md:w-1/3 md:text-center font-normal text-xl mb-10 leading-8"
         data-testid="welcome-subheading2"
       >
-        Bringing extensive knowledge and leadership in delivering high-quality
-        user experiences, optimizing performance, and staying abreast of the
-        latest industry trends.
+        I bring strong leadership skills, a passion for creating seamless user experiences, and expertise in modern frontend technologies. With a focus on performance optimization, maintainable code, and industry best practices, I strive to create scalable and efficient digital solutions while staying ahead of emerging trends in web development.
       </div>
       <a href="#certificates">
         <button
