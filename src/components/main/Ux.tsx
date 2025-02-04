@@ -34,7 +34,7 @@ export const Ux: React.FC = () => {
         A/B testing is a powerful method for improving conversion rates by comparing two versions of a webpage to see which performs better.
       </p>
       <p className="text-justify leading-8 mb-10">
-        For example, if you're unsure which headline will generate more sales, you can run an A/B test where: <br />
+        For example, if you are unsure which headline will generate more sales, you can run an A/B test where: <br />
         • 50% of visitors see Headline A <br />
         • 50% of visitors see Headline B<br /><br />
         The system tracks user interactions and determines which version drives more conversions (e.g., more purchases, sign-ups, or clicks).
