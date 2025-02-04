@@ -5,10 +5,13 @@ import Image from 'next/image';
 
 export const Certificates: React.FC = () => {
   const certificates: string[][] = [
-    ['google-cybersecurity.png', 'Google Cybersecurity'],
-    ['microsoft.png', 'Microsoft Azure Developer'],
+    ['architect.png', 'Microsoft Azure Architect Expert AZ-305'],
+    ['devops.png', 'Microsoft Azure DevOps Expert AZ-400'],
+    ['developer.png', 'Microsoft Azure Developer AZ-204'],
+    ['administrator.png', 'Microsoft Azure Administrator AZ-104'],
+    ['microsoft.png', 'Microsoft Azure Network Engineer AZ-700'],
     ['facebook.png', 'Meta Front-End Developer'],
-    ['ibm.png', 'IBM Developing Front-End Apps with React'],
+    ['google-ux.png', 'Google UX Design'],
   ];
 
   return (
@@ -26,7 +29,7 @@ export const Certificates: React.FC = () => {
       <p className="text-justify leading-8">
         I have a number of certificates issued by the largest Tech companies in
         the world confirming my high qualifications, including: Facebook,
-        Google, Microsoft and IBM, and whose acquisition meant participation in
+        Google and Microsoft and whose acquisition meant participation in
         many months of workshops, practical classes and passing the exams.
       </p>
       <Gallery>

@@ -15,16 +15,10 @@ export const About: React.FC = () => {
         Info
       </p>
       <p className="text-justify leading-8 mb-4">
-        I am highly motivated, have a positive attitude towards work and
-        ambitious. I learn new technologies quickly and I am open to new work
-        methods and tools.
+        I am a highly motivated and ambitious developer with a strong passion for learning and adapting to new technologies, tools, and methodologies. My  positive attitude towards work and problem-solving mindset drive me to continuously improve and innovate.
       </p>
       <p className="text-justify leading-8 mb-4">
-        During my studies, I worked part-time in internet marketing and after
-        completing them, I stayed in this industry. In 2019 I decided change the
-        industry and started learning programming in Javascript and Django. From
-        YouTube videos to Udemy courses to solving tasks on CodeWars and
-        creating my own projects and application.
+        My journey into software development started with a background in internet marketing, where I worked part-time during my studies and continued in the field after graduation. In 2019, I made the transition to programming, starting with JavaScript and Django. Through self-learning - watching YouTube tutorials, completing Udemy courses, solving challenges on CodeWars, and building personal projects - I developed a solid foundation that led me to my career in software development..
       </p>
       <p className="text-3xl md:text-4xl font-bold mb-6 text-[#5BC0EB] text-start mt-14">
         Open Source
@@ -36,14 +30,14 @@ export const About: React.FC = () => {
         Work history
       </p>
       <p className="text-start leading-8 mb-4">
-        09.2022 - 01.2024 - Software Center, Capgemini Poland - Senior Front-End
+        09.2022 - 02.2025 - Software Center, Capgemini Poland - Senior Front-End
         developer
       </p>
       <p className="text-start leading-8 mb-4">
         03.2021 - 09.2022 - D&H Innovations - Fullstack developer
       </p>
       <p className="text-start leading-8 mb-4">
-        09.2014 - 03.2021 - JWAW - Digital marketing specialist
+        09.2014 - 03.2021 - JWAW - Frontend Developer & CRO Specialist
       </p>
       <p className="text-3xl md:text-4xl font-bold mb-6 text-[#5BC0EB] text-start mt-14">
         Education
